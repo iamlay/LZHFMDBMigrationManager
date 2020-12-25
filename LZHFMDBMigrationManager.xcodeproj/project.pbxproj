@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A758CF393AB8EE9B691FC85A /* libPods-LZHFMDBMigrationManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C4BABDE74CD1A2BE393E999 /* libPods-LZHFMDBMigrationManager.a */; };
 		B45A1DAA25958897005FAB88 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B45A1DA925958897005FAB88 /* AppDelegate.m */; };
 		B45A1DAD25958897005FAB88 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B45A1DAC25958897005FAB88 /* SceneDelegate.m */; };
 		B45A1DB025958897005FAB88 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B45A1DAF25958897005FAB88 /* ViewController.m */; };
@@ -16,6 +17,7 @@
 		B45A1DBB25958898005FAB88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B45A1DBA25958898005FAB88 /* main.m */; };
 		B45A1DC525958898005FAB88 /* LZHFMDBMigrationManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B45A1DC425958898005FAB88 /* LZHFMDBMigrationManagerTests.m */; };
 		B45A1DD025958898005FAB88 /* LZHFMDBMigrationManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B45A1DCF25958898005FAB88 /* LZHFMDBMigrationManagerUITests.m */; };
+		B45A1DF525958BF7005FAB88 /* FMDBMigrationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B45A1DF325958BF7005FAB88 /* FMDBMigrationManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C4BABDE74CD1A2BE393E999 /* libPods-LZHFMDBMigrationManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LZHFMDBMigrationManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5184C77FEC26B3DE305B3DB3 /* Pods-LZHFMDBMigrationManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZHFMDBMigrationManager.release.xcconfig"; path = "Target Support Files/Pods-LZHFMDBMigrationManager/Pods-LZHFMDBMigrationManager.release.xcconfig"; sourceTree = "<group>"; };
 		B45A1DA525958897005FAB88 /* LZHFMDBMigrationManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LZHFMDBMigrationManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B45A1DA825958897005FAB88 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B45A1DA925958897005FAB88 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +58,10 @@
 		B45A1DCB25958898005FAB88 /* LZHFMDBMigrationManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LZHFMDBMigrationManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B45A1DCF25958898005FAB88 /* LZHFMDBMigrationManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZHFMDBMigrationManagerUITests.m; sourceTree = "<group>"; };
 		B45A1DD125958898005FAB88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B45A1DF325958BF7005FAB88 /* FMDBMigrationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDBMigrationManager.m; sourceTree = "<group>"; };
+		B45A1DF425958BF7005FAB88 /* FMDBMigrationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDBMigrationManager.h; sourceTree = "<group>"; };
+		CC6C98F50583A5BAA9D78E5D /* Pods-LZHFMDBMigrationManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZHFMDBMigrationManager.debug.xcconfig"; path = "Target Support Files/Pods-LZHFMDBMigrationManager/Pods-LZHFMDBMigrationManager.debug.xcconfig"; sourceTree = "<group>"; };
+		DF69C696E9A950211248929C /* LZHFMDBMigrationManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = LZHFMDBMigrationManager.podspec; path = ../LZHFMDBMigrationManager.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A758CF393AB8EE9B691FC85A /* libPods-LZHFMDBMigrationManager.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +90,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C8E46AAC1D4C022400A4E53 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC6C98F50583A5BAA9D78E5D /* Pods-LZHFMDBMigrationManager.debug.xcconfig */,
+				5184C77FEC26B3DE305B3DB3 /* Pods-LZHFMDBMigrationManager.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6985A4579902761A9A47391C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C4BABDE74CD1A2BE393E999 /* libPods-LZHFMDBMigrationManager.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B45A1D9C25958897005FAB88 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +114,8 @@
 				B45A1DC325958898005FAB88 /* LZHFMDBMigrationManagerTests */,
 				B45A1DCE25958898005FAB88 /* LZHFMDBMigrationManagerUITests */,
 				B45A1DA625958897005FAB88 /* Products */,
+				4C8E46AAC1D4C022400A4E53 /* Pods */,
+				6985A4579902761A9A47391C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +132,7 @@
 		B45A1DA725958897005FAB88 /* LZHFMDBMigrationManager */ = {
 			isa = PBXGroup;
 			children = (
+				B45A1DF225958BF7005FAB88 /* LZHFMDBMigrationManager */,
 				B45A1DA825958897005FAB88 /* AppDelegate.h */,
 				B45A1DA925958897005FAB88 /* AppDelegate.m */,
 				B45A1DAB25958897005FAB88 /* SceneDelegate.h */,
@@ -115,6 +144,7 @@
 				B45A1DB625958898005FAB88 /* LaunchScreen.storyboard */,
 				B45A1DB925958898005FAB88 /* Info.plist */,
 				B45A1DBA25958898005FAB88 /* main.m */,
+				DF69C696E9A950211248929C /* LZHFMDBMigrationManager.podspec */,
 			);
 			path = LZHFMDBMigrationManager;
 			sourceTree = "<group>";
@@ -137,6 +167,15 @@
 			path = LZHFMDBMigrationManagerUITests;
 			sourceTree = "<group>";
 		};
+		B45A1DF225958BF7005FAB88 /* LZHFMDBMigrationManager */ = {
+			isa = PBXGroup;
+			children = (
+				B45A1DF325958BF7005FAB88 /* FMDBMigrationManager.m */,
+				B45A1DF425958BF7005FAB88 /* FMDBMigrationManager.h */,
+			);
+			path = LZHFMDBMigrationManager;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,6 +183,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B45A1DD425958898005FAB88 /* Build configuration list for PBXNativeTarget "LZHFMDBMigrationManager" */;
 			buildPhases = (
+				777A41B523542370C60BFD71 /* [CP] Check Pods Manifest.lock */,
 				B45A1DA125958897005FAB88 /* Sources */,
 				B45A1DA225958897005FAB88 /* Frameworks */,
 				B45A1DA325958897005FAB88 /* Resources */,
@@ -261,11 +301,37 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		777A41B523542370C60BFD71 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LZHFMDBMigrationManager-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B45A1DA125958897005FAB88 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B45A1DF525958BF7005FAB88 /* FMDBMigrationManager.m in Sources */,
 				B45A1DB025958897005FAB88 /* ViewController.m in Sources */,
 				B45A1DAA25958897005FAB88 /* AppDelegate.m in Sources */,
 				B45A1DBB25958898005FAB88 /* main.m in Sources */,
@@ -438,6 +504,7 @@
 		};
 		B45A1DD525958898005FAB88 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC6C98F50583A5BAA9D78E5D /* Pods-LZHFMDBMigrationManager.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -456,6 +523,7 @@
 		};
 		B45A1DD625958898005FAB88 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5184C77FEC26B3DE305B3DB3 /* Pods-LZHFMDBMigrationManager.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
