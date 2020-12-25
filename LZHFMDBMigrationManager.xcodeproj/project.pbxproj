@@ -132,7 +132,7 @@
 		B45A1DA725958897005FAB88 /* LZHFMDBMigrationManager */ = {
 			isa = PBXGroup;
 			children = (
-				B45A1DF225958BF7005FAB88 /* LZHFMDBMigrationManager */,
+				B45A1DFC25958EF4005FAB88 /* Source */,
 				B45A1DA825958897005FAB88 /* AppDelegate.h */,
 				B45A1DA925958897005FAB88 /* AppDelegate.m */,
 				B45A1DAB25958897005FAB88 /* SceneDelegate.h */,
@@ -167,13 +167,13 @@
 			path = LZHFMDBMigrationManagerUITests;
 			sourceTree = "<group>";
 		};
-		B45A1DF225958BF7005FAB88 /* LZHFMDBMigrationManager */ = {
+		B45A1DFC25958EF4005FAB88 /* Source */ = {
 			isa = PBXGroup;
 			children = (
 				B45A1DF325958BF7005FAB88 /* FMDBMigrationManager.m */,
 				B45A1DF425958BF7005FAB88 /* FMDBMigrationManager.h */,
 			);
-			path = LZHFMDBMigrationManager;
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
