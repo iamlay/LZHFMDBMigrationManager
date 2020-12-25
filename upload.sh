@@ -10,8 +10,8 @@ if [ "$ConflicCount" -gt 0 ] ; then
    exit 1
 fi
 
-Repo="LZHFMDBMigrationManager"
-RepoList=("LZHFMDBMigrationManager" "LZHFMDBMigrationManager_test" "LZHFMDBMigrationManager_gray")
+Repo="CocoaPods"
+RepoList=("CocoaPods" "CocoaPods_test" "CocoaPods_gray")
 getRepo() {
     echo -e "\n"
     length=${#RepoList[@]}
@@ -59,17 +59,17 @@ GrayVersionString=`grep -E 'version.gray.*=' LZHFMDBMigrationManager.podspec`
 GrayVersionNumber=`tr -cd 0-9 <<<"$GrayVersionString"`
 NewGrayVersionNumber=$GrayVersionNumber
 
-if [ "$Repo" == "LZHFMDBMigrationManager" ]; then
+if [ "$Repo" == "CocoaPods" ]; then
   NewDevelopVersionNumber=$(($DevelopVersionNumber + 1))
   NewTestVersionNumber=0
   NewGrayVersionNumber=0
 fi
 
-if [ "$Repo" == "LZHFMDBMigrationManager_test" ]; then
+if [ "$Repo" == "CocoaPods_test" ]; then
   NewTestVersionNumber=$(($TestVersionNumber + 1))
 fi
 
-if [ "$Repo" == "LZHFMDBMigrationManager_gray" ]; then
+if [ "$Repo" == "CocoaPods_gray" ]; then
   NewGrayVersionNumber=$(($GrayVersionNumber + 1))
 fi
 
