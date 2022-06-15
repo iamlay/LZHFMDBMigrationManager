@@ -96,4 +96,4 @@ git add .
 git commit -am ${NewVersionNumber}
 git tag ${NewVersionNumber}
 git push origin HEAD --tags
-pod repo push ${Repo} LZHFMDBMigrationManager.podspec --verbose --allow-warnings --use-libraries --use-modular-headers
+pod trunk push ${Repo} LZHFMDBMigrationManager.podspec --verbose --allow-warnings --use-libraries --use-modular-headers
